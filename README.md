@@ -9,16 +9,20 @@ The project is executed using the following resources:
 
 - Description
    - Installation
-     Pre-requisites:
-      Python            3.8.10
-      Numpy             1.22.2
-      Rasterio          1.2.10
-      Plotly            5.6.0
-      Streamlit         1.7.0
+     Pre-requisites
+   Python            3.8.1
+   Numpy             1.22.2
+   Rasterio          1.2.10
+   Plotly            5.6.0
+   Streamlit         1.7.0
       
      
    - Usage
+   The file "API to plot.ipynb" runs on Jupyter notebook and allows to visualize the 3D model of the area directly on your browser
+   
    - (Visuals)
    - (Contributors)
    - (Timeline)
    - (Personal situation)
+
+Error handling and edge cases (e.g. property is on between 2 files)

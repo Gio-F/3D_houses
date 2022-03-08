@@ -7,20 +7,20 @@ The project is executed using the following resources:
     - [DTM](https://www.geopunt.be/download?container=dhm-vlaanderen-ii-dtm-raster-1m&title=Digitaal%20Hoogtemodel%20Vlaanderen%20II,%20DTM,%20raster,%201m)
 - *AGIV Geolocation API* [v4](http://loc.geopunt.be/)
 
-- Description
+##### Description
    - Pre-requisites
       
-   Python            3.8.1
+     - Python            3.8.1
    
-   Numpy             1.22.2
+     - Numpy             1.22.2
    
-   Rasterio          1.2.10
+     - Rasterio          1.2.10
    
-   Plotly            5.6.0
+     - Plotly            5.6.0
    
-   Streamlit         1.7.0
+     - Streamlit         1.7.0
    
-   Internet Connection
+     - Internet Connection
       
      
    - Installation and Usage

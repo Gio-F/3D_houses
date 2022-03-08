@@ -3,9 +3,9 @@ Provided with a postal address address, using LIDAR data available online , buil
 
 The project is executed using the following resources:
 - *LIDAR data* of "Digitaal Hoogtemodel Vlaanderen II" available at the following links:
-    - DSM: https://www.geopunt.be/download?container=dhm-vlaanderen-ii-dsm-raster-1m&title=Digitaal%20Hoogtemodel%20Vlaanderen%20II,%20DSM,%20raster,%201m
-    - DTM: https://www.geopunt.be/download?container=dhm-vlaanderen-ii-dtm-raster-1m&title=Digitaal%20Hoogtemodel%20Vlaanderen%20II,%20DTM,%20raster,%201m
-- *AGIV Geolocation API* v4: http://loc.geopunt.be/
+    - [DSM](https://www.geopunt.be/download?container=dhm-vlaanderen-ii-dsm-raster-1m&title=Digitaal%20Hoogtemodel%20Vlaanderen%20II,%20DSM,%20raster,%201m)
+    - [DTM](https://www.geopunt.be/download?container=dhm-vlaanderen-ii-dtm-raster-1m&title=Digitaal%20Hoogtemodel%20Vlaanderen%20II,%20DTM,%20raster,%201m)
+- *AGIV Geolocation API* [v4](http://loc.geopunt.be/)
 
 - Description
    - Pre-requisites
@@ -27,7 +27,7 @@ The project is executed using the following resources:
  
 *Jupyter Notebook* : the program can be run directly in Jupyter Notebook using the file "API to plot.ipynb". It allows to visualize the 3D model of the area selected based on the input address directly on your browser.
   
-*Terminal* : use  $ streamlit run 'API to plot w Streamlit.py' (file available in this repo) to run the program from your terminal and visualize the plot on browser thanks to Streamlit.
+*Terminal* : use `$ streamlit run 'API to plot w Streamlit.py'` (file available in this repo) to run the program from your terminal and visualize the plot on browser thanks to Streamlit.
 
 In both cases, the file paths are hardcoded. Before running the program, please:
 

@@ -47,8 +47,12 @@ In both cases *ensure to type full address includng ZIP code* in French or Dutch
    
 ##### Visuals
 
-Example of a 3D plot visualization. The image can be rotated, zoomed in and out, etc.
+Example of a 3D plot visualization with Streamlit:
 
+![3Ddemo](https://user-images.githubusercontent.com/90340959/157298742-d478c29c-37d1-403c-b78b-047308c077b5.gif)
+
+
+Downloaded images:
 ![newplot(5)](https://user-images.githubusercontent.com/90340959/157256017-407efde0-a8d3-448d-b8af-4b2fc3e96562.png)
 ![newplot(4)](https://user-images.githubusercontent.com/90340959/157256020-1b6f49fd-b234-4b2e-840e-dcc9cce77ed1.png)
 

@@ -33,9 +33,8 @@ The project is executed using the following resources:
 
 In both cases, the file paths are hardcoded. Before running the program, please:
 
-Change the path for new_j_all_bounds.json to match the location on your machine (file available in this repo)
-
-Change the paths for "file_path_dtm" and "file_path_dsm" to match the folder where you want to download the files on your machine.
+- Change the path for new_j_all_bounds.json to match the location on your machine (file available in this repo)
+- Change the paths for "file_path_dtm" and "file_path_dsm" to match the folder where you want to download the files on your machine.
 
    
 ##### Visuals

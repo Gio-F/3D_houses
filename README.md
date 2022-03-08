@@ -31,17 +31,19 @@ The project is executed using the following resources:
   
 *Terminal* : use `$ streamlit run 'API to plot w Streamlit.py'` (file available in this repo) to run the program from your terminal and visualize the plot on browser thanks to Streamlit. You will see the message "You can now view your Streamlit app in your browser." followed by the http address you need to copy in your browser address bar.
 
+The file paths are hardcoded. Before running the program, please:
 
-In both cases:
+- In file "API to plot w Streamlit.py": 
+  - Line 50: Change the path for new_j_all_bounds.json to match the location on your machine (file available in this repo);
+  - Line 72 and Line 79: change the paths for "file_path_dtm" and "file_path_dsm" to match the folder where you want to download the files on your machine.
 
-- The file paths are hardcoded. Before running the program, please:
-
-  - Change the path for new_j_all_bounds.json to match the location on your machine (file available in this repo);
-  - Change the paths for "file_path_dtm" and "file_path_dsm" to match the folder where you want to download the files on your machine.
+- In file "API to plot.ipynb": 
+  - In function "bounds_contains(pt)" : Change the path for new_j_all_bounds.json to match the location on your machine (file available in this repo);
+  - In function "download_unzip(dtm_url, dsm_url)" : change the paths for "file_path_dtm" and "file_path_dsm" to match the folder where you want to download the files on your machine.
   
-- Ensure to type full address includng ZIP code in French or Dutch (ex. "Zeedijk 261, 8370 Blankenberge" )
+In both cases *ensure to type full address includng ZIP code* in French or Dutch (ex. "Zeedijk 261, 8370 Blankenberge" )
 
-
+*Note about "new_j_all_bounds.json"* : this json contains all the bounds boxes of the dtm/dsm files. This data is used to identify the correct file to download, as in order to prevent storage issues the files are deleted after usage. If this file is corrupted or needs update, the code to generate it is available in "bounds_w_download_unzip_del.ipynb" 
    
 ##### Visuals
 
@@ -56,6 +58,7 @@ Example of a 3D plot visualization. The image can be rotated, zoomed in and out,
  Remove hardcoded paths;
  Error handling (ex. file already downloaded, timeout, ...);
  Account for edge cases (e.g. property is between 2 files).
+ In "bounds_w_download_unzip_del.ipynb"prevent same boundsbox to be written again
  
  
 ##### Context

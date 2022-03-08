@@ -1,4 +1,7 @@
 # 3D_houses
+
+##### Description
+
 Provided with a postal address address, using LIDAR data available online , build a 3D model of the area
 
 The project is executed using the following resources:
@@ -7,8 +10,7 @@ The project is executed using the following resources:
     - [DTM](https://www.geopunt.be/download?container=dhm-vlaanderen-ii-dtm-raster-1m&title=Digitaal%20Hoogtemodel%20Vlaanderen%20II,%20DTM,%20raster,%201m)
 - *AGIV Geolocation API* [v4](http://loc.geopunt.be/)
 
-##### Description
-   - Pre-requisites
+##### Pre-requisites
       
      - Python            3.8.1
    
@@ -23,7 +25,7 @@ The project is executed using the following resources:
      - Internet Connection
       
      
-   - Installation and Usage
+##### Installation and Usage
  
 *Jupyter Notebook* : the program can be run directly in Jupyter Notebook using the file "API to plot.ipynb". It allows to visualize the 3D model of the area selected based on the input address directly on your browser.
   
@@ -36,7 +38,7 @@ Change the path for new_j_all_bounds.json to match the location on your machine 
 Change the paths for "file_path_dtm" and "file_path_dsm" to match the folder where you want to download the files on your machine.
 
    
-   - Visuals
+##### Visuals
 
 Example of a 3D plot visualization. The image can be rotated, zoomed in and out, etc.
 
@@ -44,14 +46,14 @@ Example of a 3D plot visualization. The image can be rotated, zoomed in and out,
 ![newplot(4)](https://user-images.githubusercontent.com/90340959/157256020-1b6f49fd-b234-4b2e-840e-dcc9cce77ed1.png)
 
 
-   - ToDo
+##### ToDo
  
  Remove hardcoded paths;
  Error handling (ex. file already downloaded, timeout, ...);
  Account for edge cases (e.g. property is between 2 files).
  
  
-   - Context
+##### Context
 
 This project is part of my training as Junior AI developer at BeCode (Belgium)
 

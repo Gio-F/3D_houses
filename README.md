@@ -41,7 +41,7 @@ The file paths are hardcoded. Before running the program, please:
   - In function "bounds_contains(pt)" : Change the path for new_j_all_bounds.json to match the location on your machine (file available in this repo);
   - In function "download_unzip(dtm_url, dsm_url)" : change the paths for "file_path_dtm" and "file_path_dsm" to match the folder where you want to download the files on your machine.
   
-In both cases *ensure to type full address includng ZIP code* in French or Dutch (ex. "Zeedijk 261, 8370 Blankenberge" )
+In both cases *ensure to type full address including ZIP code* in French or Dutch (ex. "Zeedijk 261, 8370 Blankenberge" )
 
 *Note about "new_j_all_bounds.json"* : this json contains all the bounds boxes of the dtm/dsm files. This data is used to identify the correct file to download, as in order to prevent storage issues the files are deleted after usage. If this file is corrupted or needs update, the code to generate it is available in "bounds_w_download_unzip_del.ipynb" 
    
